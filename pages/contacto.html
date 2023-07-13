@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <title> Como podemos ayudarte? </title>
+  <style>
+
+    h1{
+        background-color: rgb(252, 251, 253);
+        text-align:center;
+        height: 80px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+ .form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn-primary {
+  border-radius: 0;
+}
+  </style>
+</head>
+<body>
+    <nav class="barra">
+        <ul class="lista-enlaces">
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="colecciones.html">Colecciones</a></li>
+          <li><a href="sale.html">Sale</a></li>
+          <li> <a href="/index.html">Home</a></li>
+          <li><a href="#" onclick="history.go(-1)">Volver atrás</a></li>
+        </ul>  
+  </nav>
+<style>
+    body{
+        background-color: rgb(207, 232, 239);
+        text-align: left; 
+        margin-bottom: 20px;
+    }
+    .barra{
+      float: right;
+      font-size: 20px;
+  
+    } 
+    .barra ul li{
+      list-style: none;
+      display: inline-block;
+      margin-right: 40px;
+    }
+    
+    .barra a:hover{
+      color:black;
+      text-decoration: underline;
+background-color: rgb(253, 254, 255);
+    }
+
+</style>
+    <h1> Contacto</h1>
+    <form action="enviar_formulario.php" method="post">
+       <div class="formulario">
+          <form>
+            <div class="form-group">
+              <label for="nombre">Nombre:</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form-group">
+              <label for="email">Email:  </label>
+              <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico">
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje:</label>
+              <textarea class="form-control" id="mensaje" rows="4" placeholder="Ingrese su mensaje"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+             <button id="boton" type="reset" class="bg-danger"> borrar</button>
+          </form>
+      </div>
+
+  
+   <h2>Nos encontramos acá</h2>
+  
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.0687904516058!2d-57.546296399999996!3d-37.99885589999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584dc04b7950dcf%3A0xbed6c2952c3dd251!2sC%C3%B3rdoba%201612%2C%20B7600DVJ%20Mar%20del%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1685475036205!5m2!1ses-419!2sar" width="350" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+
+   <footer>
+    <div class="redes">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+</div>
+</footer>
+<style>
+    
+    footer {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: black;
+        font-size: 20px;
+        letter-spacing: 50px;
+    }
+</style>
+</body>
+</html>

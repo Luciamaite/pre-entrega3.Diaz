@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Island+Moments&family=Moon+Dance&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Delicious+Handrawn&family=Farsan&family=Lato&family=Open+Sans:wght@300&family=Oswald:wght@300&family=Poppins:wght@300&family=Roboto:wght@100;900&display=swap');
+
+$color22 : rgb(226, 232, 236);
+
+header {
+  height: 80px;
+  width: 100%;
+  padding: 20px;
+  background-color: $color22;
+  color: #262627;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+   }
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 25px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.galeria {
+  width: 100%;
+  height: auto;
+  min-height: 600px;
+  background-color: rgb(172, 188, 223);
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 200px);
+  
+
+  }
+
+  .logo{
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    image-orientation: left ;
+    }
+
+.barra {
+  float: right;
+  font-size: 17px;
+ } 
+ .barra ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.barra a:hover{
+  color:black;
+  text-decoration: underline;
+background-color: rgb(253, 254, 255);
+}
+
+
+body {
+  background-color: rgb(207, 232, 239);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item {
+  border: 2px solid #000;
+  background-size:cover;
+  background-position:center;
+}
+    
+.item1 {
+  background-image: url(./Pages/imagenes/anteojos-5486967_640.jpg);
+}
+
+.item2 {
+  background-image: url(./Pages/imagenes/display-1313664_640.jpg);
+}
+
+.item3 {
+  background-image: url(./Pages/imagenes/glasses-928465_640.webp);
+}
+
+.item4 {
+  background-image: url(./Pages/imagenes/home.jpg);
+}
+
+.item5 {
+  background-image: url(./Pages/imagenes/home2.jpg);
+}
+
+.item6 {
+  background-image: url(./Pages/imagenes/home3.jpg);
+}
+
